@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  height: 100vh;
+  background-color: #0a0a0a;
+  border: 1px solid #444444;
+}
+
+.sidebar header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar header #dropdownMenuButton1 {
+  background-color: #0a0a0a;
+  border: none;
+}
+
+.sidebar header button {
+  color: white;
+  border: none;
+  margin: 5px;
+  background-color: #1b1b1b;
+  width: 30%;
+}
+
+.sidebar .input-group {
+  margin: 5px;
+  width: 95%;
+}
+
+.sidebar .input-group .form-control {
+  background-color: #272525;
+  border: none;
+}
+
+.sidebar .input-group span {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.sidebar .side-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.sidebar .side-menu .side-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+}
+
+.sidebar .side-menu .side-rows img {
+  border: 1px solid #444444;
+  border-radius: 100%;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.sidebar .side-menu .side-rows h4 {
+  color: white;
+  font-size: 20px;
+}
+
+.sidebar .side-menu .side-rows p {
+  color: #585454;
+  font-size: 15px;
+}
+
+.sidebar .side-menu #row-2 {
+  background-color: #272525;
+}
+
+.sidebar .side-menu #row-2 i {
+  color: white;
+}
+
+main {
+  float: left;
+  width: 75%;
+  height: 100vh;
+  border: 1px solid #444444;
+  background-color: #111010;
+  color: white;
+}
+
+main nav {
+  border-bottom: 1px solid #444444;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main nav span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+}
+
+main nav span i {
+  margin: 4px;
+  color: white;
+}
+
+main nav .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main nav .items button {
+  padding: 5px;
+  border-radius: 5px;
+  color: #acacac;
+  margin: 2px;
+  height: 30px;
+  border: 1px solid #444444;
+}
+
+main nav .items li {
+  list-style: none;
+  margin: 2px;
+  padding: 2px;
+}
+
+main .chatbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+main .chatbox .rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+}
+
+main .chatbox .rows img {
+  border: 1px solid #444444;
+  border-radius: 100%;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+main .chatbox .rows div {
+  margin: 5px;
+  padding: 2px;
+}
+
+main .chatbox .rows div h4 {
+  margin: 5px;
+  display: inline;
+  font-size: 20px;
+}
+
+main .chatbox .rows div span {
+  font-size: 10px;
+  color: #3b3a3a;
+}
+
+main .chatbox .rows div mark {
+  color: blue;
+  background-color: #0a0a0a;
+}
+
+main .chatbox #row-9 {
+  border-top: 2px solid red;
+}
+
+main .chatbox .mssg {
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  bottom: 120px;
+  left: 80%;
+}
+
+main .chatbox .textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 98%;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin: 5px;
+  border: 2px solid #272525;
+  color: #585454;
+}
+
+main .chatbox .textbox ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .chatbox .textbox li {
+  list-style: none;
+  margin: 5px;
+  padding: 3px;
+  color: #585454;
+}
+
+main .day {
+  position: absolute;
+  top: 7%;
+  margin-left: 30%;
+  padding: 5px;
+  border-radius: 10px;
+  color: #acacac;
+  border: 2px solid #272525;
+  width: 100px;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
